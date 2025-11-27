@@ -2,10 +2,8 @@
 
 namespace App\Models;
 
-use App\DTO\GetTaskListDto;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Illuminate\Support\Collection;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 class TaskModel extends Model
